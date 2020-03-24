@@ -21,7 +21,6 @@ let rpclist = [];
 for (let i = 0; i < rpcs.length; i++) {
     rpclist.push(`${i+1}. ${rpcs[i]}`);
 }
-//console.log((await sys.graphics()).controllers[0].model);
 async function run() {
 logger.log(`Hello ${os.hostname}!`);
 logger.log('==================== Using ====================');
