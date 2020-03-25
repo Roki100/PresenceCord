@@ -13,7 +13,7 @@ var log = function(log) {
     console.log(colors.brightBlue('[ Log ]:'), colors.cyan(log));
 }
 var error = function(log) {
-    console.log(colors.red('[ Error ]'), colors.brightRed(log));
+    console.log(colors.red('[ Error ]:'), colors.brightRed(log));
 }
 
 // *************************
