@@ -26,7 +26,7 @@ async function worker() {
 }
 
 client.once('ready', () => {
-    logger.log(`Started up ${info.name} presence!`);
+    logger.log(`Started up ${info.name} presence by MILLION#1321!`);
     let presence = { state: 'Loading...' };
     client.setActivity(presence);
     worker();

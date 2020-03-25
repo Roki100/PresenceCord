@@ -7,20 +7,18 @@ const info = module.exports = {
 const rpc = require("discord-rpc");
 const logger = require('../logger.js');
 const client = new rpc.Client({ transport: 'ipc' });
-client.login({ clientId: '683017681376772116' });
+client.login({ clientId: '692201246328881192' });
 
 async function worker() {
     setInterval(async () => {
         let presence = {
             startTimestamp: new Date(Date.now() - (69 * 24 * 60 * 60 * 1000)),
-            smallImageKey: 'untitled',
-            smallImageText: 'Yeet',
-            largeImageKey: 'untitled',
-            largeImageText: 'Wow, you found this!',
-            state: 'Playing Solo',
-            details: 'Not doing anything',
-            partySize: 420,
-            partyMax: 69,
+            smallImageKey: 'white',
+            smallImageText: 'WOW',
+            largeImageKey: 'black',
+            largeImageText: 'EPIC',
+            state: 'I mean you can too ^',
+            details: 'https://github.com/Roki100/PresenceCord',
             instance: true
         };
         try {
